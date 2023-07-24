@@ -86,6 +86,137 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/** outline**/
+.content-wrapper{
+outline: 3px dotted red;
+width: 90%;
+}
+
+/*===== base header and footer style */
+ header, footer {
+  display: flex;
+  justify-content: center;
+}
+
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+header nav ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+
+footer .social-icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer .social-icons p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+/***** Header Style *****/
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+header .header-divider{
+  display: flex;
+  justify-content: center;
+}
+
+header nav{
+  display: flex;
+  justify-content: center;
+}
+
+
+header nav ul li{
+
+}
+
+/******** mobile styles homepage ********/
+/*** hero area ***/
+
+.hero-area {
+  display: flex;
+  justify-content: center;
+}
+
+/*** aside ***/
+
+aside {
+  display: flex;
+  justify-content: center;
+}
+
+/*** features ***/
+
+.features{
+  display: flex;
+  justify-content: center;
+}
+
+.features .feature-items{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+
+/*** reviews ***/
+
+.reviews {
+  display: flex;
+  justify-content: center;
+}
+
+/*==================================================================
+About page
+==================================================================*/
+.mission{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-section{
+  display: flex;
+  justify-content: center;
+}
+
+/*=====================================================================
+FAQ page
+=====================================================================*/
+.faq {
+  display: flex;
+  justify-content: center;
+}
+
+.faq .content-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 
 /* ==========================================================================
    Helper classes
