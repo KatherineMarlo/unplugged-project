@@ -625,6 +625,10 @@ FAQ page
     width: 45%;
   }
 
+  .map figure {
+    padding-bottom: 54%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
